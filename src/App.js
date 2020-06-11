@@ -17,7 +17,6 @@ import ProjectsPage from './pages/ProjectsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import avatar from './images/ChrisAvatar.PNG';
-import avatar2 from './images/ChrisFace2.PNG';
 
 class App extends Component {
 constructor(props){
@@ -29,21 +28,30 @@ constructor(props){
         title: 'Home', path: '/'
       },
       {
-        about: 'About', path: '/about'
+        title: 'Music', path: '/music'
       },
       {
-        Contact: 'Contact', path: '/contact'
+        title: 'Gaming', path: '/gaming'
+      },
+      {
+        title: 'Projects', path: '/projects'
+      },
+      {
+        title: 'About', path: '/about'
+      },
+      {
+        title: 'Contact', path: '/contact'
       }
     ],
     home: {
-      title: 'Pursuing That Dream Position',
-      subTitle: 'Multitalented Gamer, Musician and Aspiring Web Developer',
+      title: "I'm Just Pursuing That Dream Position...",
+      subTitle: 'Musician. Gamer. Web Developer.',
     },
     music: {
-      title: 'Discover My Other Talent'
+      title: 'Discover My Side Gig'
     },
     gaming: {
-      title: 'This is my nerdy side'
+      title: 'Talking Nerdy To You'
     },
     projects: {
       title: 'Check out my web projects so far'
@@ -76,7 +84,7 @@ constructor(props){
     </Nav>
     </Navbar.Collapse>
    </Navbar>
-   <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subtitle}  />} />
+   <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
    <Route path="/music" exact render={() => <MusicPage title={this.state.music.title}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title}  />} />
    <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} s />} />
