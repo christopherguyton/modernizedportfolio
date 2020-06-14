@@ -13,7 +13,10 @@ function Musician(props) {
         <Col md={8}>
         <h1>Bassist, Singer, Songwriter</h1>
      <h2>{props.title}</h2>
-     <h3 className="subTitle">{props.subTitle}</h3>
+     <Container>
+     <h4 className="descript">{props.description}</h4>
+     <h4 className="descript">{props.description2}</h4>
+     </Container>
         </Col>
         <Col md={2}>
         <img src={musicphoto} className="homeavatar"/>

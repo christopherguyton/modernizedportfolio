@@ -52,3 +52,17 @@ h2 {
 .homeavatar {
  padding-top: 20px;
 }
+
+.descript {
+  margin-top: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pageh1 {
+  color: black;
+}
+
+.albumimages {
+  margin-left: 50px;
+}

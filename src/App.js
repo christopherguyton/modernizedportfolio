@@ -46,9 +46,12 @@ constructor(props){
     home: {
       title: "I'm Just Pursuing That Dream Position...",
       subTitle: 'Musician. Gamer. Web Developer.',
+      description: ""
     },
     music: {
-      title: 'Discover My Side Gig'
+      title: 'Discover My Side Gig',
+      description: "I've been playing music for most of my life, starting out with the piano at age five and moving into the world of rock and roll as a teenager. After moving to the Bay Area in 2010, I adopted the stage name Chris Locs and have recorded several records as a bass player.",
+      description2: "I am available to compose music on a contract basis. Visit the contact section if you're interested in collaborating with me!",
     },
     gaming: {
       title: 'Talking Nerdy To You'
@@ -85,7 +88,7 @@ constructor(props){
     </Navbar.Collapse>
    </Navbar>
    <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
-   <Route path="/music" exact render={() => <MusicPage title={this.state.music.title}  />} />
+   <Route path="/music" exact render={() => <MusicPage title={this.state.music.title} description={this.state.music.description} description2={this.state.music.description2}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title}  />} />
    <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} s />} />
    <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}  />} />

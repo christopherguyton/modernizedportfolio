@@ -1,7 +1,8 @@
 import React from 'react';
-import Card from '../components/Card';
+import Card from './Card';
 import {Row, Container} from 'reactstrap';
 
+//Image Components
 import Lilspectrum from '../images/Lilspectrum.jpg';
 import GameOmen from '../images/GameOmen.jpg';
 import SonicDash from '../images/SonicDash.jpg';

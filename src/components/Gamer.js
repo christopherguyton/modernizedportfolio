@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 
-//Custom Components
+//Image Components
 import gamingavatar from '../images/GamingLife.png';
 
 function Gamer(props) {
