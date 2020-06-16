@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 import {Row, Container} from 'reactstrap';
 
 //Image Components
@@ -48,7 +47,6 @@ class MusicCarousel extends React.Component {
                     {
                         id: 3,
                         groupname: "Mister Behavior",
-                        //imgSrc: misterbehavior,
                         description: 'This is my solo project, which changes genre quite often as I like to make several different types of music. The record linked here is primarily hip hop, but I have a few things in the works that bend genres as well.',
                         link: 'https://soundcloud.com/misterbehavior/sets/backpack-raps-and-other-tracks',
                       

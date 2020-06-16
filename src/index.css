@@ -18,7 +18,7 @@ code {
 
 .c-card-image {
   border-radius: 10px;
-  width: 370px;
+  width: 400px;
   height: 480px;
   box-shadow: 0px, 0px, 3px, 1px #ccc;
 }
@@ -41,4 +41,17 @@ code {
 .fa-lg {
   padding-left: 10px;
   
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px, 15px;
+  margin-left: 20px;
+}
+
+.err-msg {
+  color: #EE6352;
+  padding: 10px, 15px;
+  margin-left: 20px;
+ 
 }
