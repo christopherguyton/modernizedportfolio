@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 //Custom Components
 
 
-function BandInfo(props) {
+function AlbumInfo(props) {
 
     const style = useSpring({
         opacity: 1, from: {opacity: 0}});
@@ -12,8 +12,11 @@ function BandInfo(props) {
 
     return(
     <animated.div className="c-card-info" style={style}>
+    <p className="c-card-title">{props.albumTitle}</p>
+    <p className="c-card-subtitle">{props.albumRelease}</p>
+    <a href={props.link} target="_blank" rel="noopener norefferer">Check It Out</a>
     </animated.div>
     );
 }
 
-export default BandInfo;
+export default AlbumInfo;

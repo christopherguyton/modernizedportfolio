@@ -18,7 +18,7 @@ code {
 
 .c-card-image {
   border-radius: 10px;
-  width: 220px;
+  width: 370px;
   height: 480px;
   box-shadow: 0px, 0px, 3px, 1px #ccc;
 }
@@ -36,4 +36,9 @@ code {
 .c-card-subtitle {
   font-size: 16px;
   margin: 0px;
+}
+
+.fa-lg {
+  padding-left: 10px;
+  
 }

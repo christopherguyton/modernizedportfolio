@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Hero from '../components/Hero';
+import Resume from '../components/Resume';
+
 function AboutPage(props) {
     return(
-        <p>AboutPage Works!</p>
+        <div>
+        <Hero title={props.title} subTitle={props.subTitle} homeDescription={props.homeDescription}/>
+        <Resume/>
+        </div>
     );
 }
 

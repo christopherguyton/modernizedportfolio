@@ -44,13 +44,14 @@ constructor(props){
       }
     ],
     home: {
-      title: "I'm Just Pursuing That Dream Position...",
-      subTitle: 'Musician. Gamer. Web Developer.',
-      description: ""
+      title: "Musician. Content Creator. Web Developer.",
+      subTitle: 'Just pursuing my dream...',
+      homeDescription: 'Thanks for stopping by! Click the images below to check out my current showcased projects. You can find a more in-depth look at my work via the navigation bar, and the About page contains my professional resume and a brief summary of my personal history.'
+      
     },
     music: {
       title: 'Discover My Side Gig',
-      description: "I've been playing music for most of my life, starting out with the piano at age five and moving into the world of rock and roll as a teenager. After moving to the Bay Area in 2010, I adopted the stage name Chris Locs and have recorded several records as a bass player.",
+      description: "I've been playing music for most of my life, starting out with the piano at age five and moving into the world of rock and roll as a teenager. After moving to the Bay Area in 2010, I adopted the stage name Chris Locs and have worked frequently as a bass player and a composer.",
       description2: "I am available to compose music on a contract basis. Visit the contact section if you're interested in collaborating with me!",
     },
     gaming: {
@@ -61,7 +62,8 @@ constructor(props){
     },
     about: {
       title: 'About Chris',
-      
+      subTitle: 'Thanks for stopping by!',
+      homeDescription: "I'm Chris. I am a YouTube content creator, music producer and an aspiring Web Developer. I have work experience as both a Scrum Master and a Project Manager, so I am very familiar with Agile SDLC and working with software teams. Check out my resume below for more information on my work experience, and please feel free to contact me using the contact form should you be interested in working together!"
     },
     contact: {
       title: 'Put Me To Work',
@@ -87,11 +89,11 @@ constructor(props){
     </Nav>
     </Navbar.Collapse>
    </Navbar>
-   <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} />} />
+   <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} homeDescription={this.state.home.homeDescription} />} />
    <Route path="/music" exact render={() => <MusicPage title={this.state.music.title} description={this.state.music.description} description2={this.state.music.description2}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title}  />} />
    <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} s />} />
-   <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}  />} />
+   <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle}  homeDescription={this.state.about.homeDescription}/>} />
    <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}  />} />
 
 <Footer/>
