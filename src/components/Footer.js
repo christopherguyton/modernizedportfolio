@@ -12,11 +12,11 @@ function Footer() {
         ChristopherGuyton87@gmail.com
         </Col>
         
-        <Col className="p-0" md={1}>
-        <Link to="/twitter"><i className="fa fa-twitter fa-lg"></i></Link>{'  '}
-        <Link to="/github"> <i className="fa fa-github fa-lg"></i></Link>{'  '}
-        <Link to="/youtube"><i className="fa fa-youtube fa-lg"></i></Link>{'  '}
-        <Link to="/twitch"><i className="fa fa-twitch fa-lg"></i></Link>{'  '}
+        <Col className="p-0" md={2}>
+        <a href="https://twitter.com/realmrbehavior" target="_blank" rel="noopener norefferer"><i className="fa fa-twitter fa-lg"></i></a>{'  '}
+        <a href="https://github.com/christopherguyton" target="_blank" rel="noopener norefferer"> <i className="fa fa-github fa-lg"></i></a>{'  '}
+        <a href="https://youtube.com/locstakes" target="_blank" rel="noopener norefferer"><i className="fa fa-youtube fa-lg"></i></a>{'  '}
+        <a href="https://twitch.tv/mrbehavior" target="_blank" rel="noopener norefferer"><i className="fa fa-twitch fa-lg"></i></a>{'  '}
         </Col>
         <Col className="p-0 d-flex justify-content-end" md={3}>
         This site was created by Christopher Guyton<br></br>

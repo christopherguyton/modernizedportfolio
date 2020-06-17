@@ -14,6 +14,7 @@ function Gamer(props) {
         <h1>Gaming Content For You!</h1>
      <h2>{props.title}</h2>
      <h3 className="subTitle">{props.subTitle}</h3>
+     <h4 className="descript">{props.description}</h4>
         </Col>
         <Col md={2}>
         <img src={gamingavatar} className="homeavatar"/>

@@ -1,12 +1,15 @@
 import React from 'react';
 import { Carousel } from 'reactstrap';
 
+
 import Gamer from '../components/Gamer';
+import GamingVideos from '../components/GamingVideos';
 
 function GamingPage(props) {
     return(
         <div>
-        <Gamer title={props.title} subTitle={props.subTitle}/> 
+        <Gamer title={props.title} subTitle={props.subTitle} description={props.description}/>
+        <GamingVideos/>
         </div>
    
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Commissions from '../components/Commissions'
 
 //Custom Components
 import Musician from '../components/Musician';
@@ -12,6 +12,8 @@ function MusicPage(props) {
         <h1 className="bandinfo">Rock Bands</h1>
         <hr></hr>
         <MusicCarousel/>
+        <h1 className="bandinfo">Commissioned Work Samples</h1>
+       <Commissions/>
         </div>
    
        

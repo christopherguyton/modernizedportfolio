@@ -71,3 +71,8 @@ h2 {
   color: black;
   margin-left: 680px;
 }
+ 
+.react-player {
+  position: relative;
+  padding-left: 20px;
+}
