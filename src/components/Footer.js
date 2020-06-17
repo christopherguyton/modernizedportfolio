@@ -1,7 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
-import faStyles from 'font-awesome/css/font-awesome.css';
+
 
 function Footer() {
     return(
@@ -20,7 +19,8 @@ function Footer() {
         </Col>
         <Col className="p-0 d-flex justify-content-end" md={3}>
         This site was created by Christopher Guyton<br></br>
-        Using ReactJS Framework
+        Using ReactJS Framework<br></br>
+        Copyright 
         </Col>
         </Row>
         <Row>

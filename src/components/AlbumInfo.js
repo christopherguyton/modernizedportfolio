@@ -14,7 +14,7 @@ function AlbumInfo(props) {
     <animated.div className="c-card-info" style={style}>
     <p className="c-card-title">{props.albumTitle}</p>
     <p className="c-card-subtitle">{props.albumRelease}</p>
-    <a href={props.link} target="_blank" rel="noopener norefferer">Check It Out</a>
+    <a href={props.link} target="_blank" rel="noopener noreferrer">Check It Out</a>
     </animated.div>
     );
 }

@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
-
+import Axios from 'axios';
 import Content from '../components/Content'
 
 class ContactPage extends Component {
@@ -33,6 +33,27 @@ class ContactPage extends Component {
          this.setState ({
              disabled: true,
          });
+
+         Axios.post('http://localhost:3000/api/email', this.state)
+         .then(res => {
+             if (res.data.success) {
+                this.setState({
+                    disabled: false,
+                    emailSent: true,
+                });
+            } else {
+                 this.setState({
+                disabled: false,
+                emailSent: false,
+            }) 
+        }
+    })
+            .catch(err => {
+               this.setState({
+                   disabled: false,
+                   emailSent: false,
+               });
+            });
         }
 
 
