@@ -75,8 +75,8 @@ constructor(props){
    return(
     <Router>
     <Container className="p-0" fluid={true}>
-    <Navbar className="border-bottom " bg="light" expand="lg" id="mainbar">
-    <Navbar.Brand><img src={avatar} width="15%" className="pr-2"/>Christopher Guyton</Navbar.Brand>
+    <Navbar fixed="top" className="border-bottom " bg="light" expand="lg" id="mainbar">
+    <Navbar.Brand><img src={avatar} alt={avatar} width="15%" className="pr-2"/>Christopher Guyton</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-toggle" className="border-0"/>
     <Navbar.Collapse id="navbar-toggle">
     <Nav className="ml-auto">
@@ -89,17 +89,15 @@ constructor(props){
     </Nav>
     </Navbar.Collapse>
    </Navbar>
+  
+  
    <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} homeDescription={this.state.home.homeDescription} />} />
    <Route path="/music" exact render={() => <MusicPage title={this.state.music.title} description={this.state.music.description} description2={this.state.music.description2}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title} description={this.state.gaming.description}  />} />
    <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
    <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
    <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}  />} />
-
 <Footer/>
-
-
-
     </Container>
     </Router>
    );

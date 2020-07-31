@@ -16,7 +16,7 @@ function Hero(props) {
      <h4 className="descript">{props.homeDescription}</h4>
         </Col>
         <Col md={2}>
-        <img src={homeavatar} className="homeavatar"/>
+        <img src={homeavatar} alt={homeavatar} className="homeavatar"/>
        </Col>
         </Row>
         </Container>
