@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                         title: 'Sonic Ring Grabber',
                         subTitle: 'Sonic Themed Mini-Game',
                         imgSrc: SonicDash,
-                        link: 'http://misterbehavior.com/sonicballgame',
+                        link: 'http://sonicballgame.netlify.app',
                         selected: false
                     },
                     {
