@@ -5,7 +5,7 @@ import ProjectCarousel from '../components/ProjectsCarousel'
 function ProjectsPage(props) {
     return(
         <div>
-        <Hero title={props.title} description={props.description}/>
+        <Hero title={props.title} subTitle={props.subTitle} description={props.description}/>
         <ProjectCarousel/>
         </div>
     );
