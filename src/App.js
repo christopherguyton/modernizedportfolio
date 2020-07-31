@@ -59,7 +59,8 @@ constructor(props){
       description: "I have a small YouTube Channel dedicated to my main hobby, video gaming. I produce all content myself using a Adobe Premiere and Audition, and I have alot of fun doing it! Below, I have included some of my most popular uploads into the page. Feel free to check out the rest of the channel by clicking the Youtube icon in the footer, as well!"
     },
     projects: {
-      title: 'Coming Soon...'
+      title: "Some of my recent projects...",
+      description: "I'm always looking to get better at this coding thing, so I'll be updating this page as I create more projects!"
     },
     about: {
       title: 'About Chris',
@@ -94,7 +95,7 @@ constructor(props){
    <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} homeDescription={this.state.home.homeDescription} />} />
    <Route path="/music" exact render={() => <MusicPage title={this.state.music.title} description={this.state.music.description} description2={this.state.music.description2}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title} description={this.state.gaming.description}  />} />
-   <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} />} />
+   <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} description={this.state.projects.description}/>} />
    <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
    <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}  />} />
 <Footer/>
