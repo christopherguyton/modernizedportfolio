@@ -17,7 +17,7 @@ function Gamer(props) {
      <h4 className="descript">{props.description}</h4>
         </Col>
         <Col md={2}>
-        <img src={gamingavatar} className="homeavatar"/>
+        <img src={gamingavatar} alt="" className="homeavatar"/>
        </Col>
         </Row>
         </Container>

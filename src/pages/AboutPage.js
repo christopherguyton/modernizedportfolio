@@ -17,7 +17,7 @@ function AboutPage(props) {
 
         <p>I have experience as both a Project Manger and a Scrum Master working with Software Development Teams, IT Teams, Insurance Teams and Brand Packaging Teams.</p>
         
-       <p>Please visit my <a href="https://linkedin.com/in/locsgehts" target="_blank" rel="noopener">LinkedIn</a> page and connect with me for a more in depth look at my work histoy and experience.</p>
+       <p>Please visit my <a href="https://linkedin.com/in/locsgehts" target="_blank" rel="noopener noreferrer">LinkedIn</a> page and connect with me for a more in depth look at my work histoy and experience.</p>
 
         <h1 className="pageh1">Interested In Working Together?</h1>
         <hr></hr>

@@ -19,7 +19,7 @@ function Musician(props) {
      </Container>
         </Col>
         <Col md={2}>
-        <img src={musicphoto} className="homeavatar"/>
+        <img src={musicphoto} alt="" className="homeavatar"/>
        </Col>
         </Row>
         </Container>
