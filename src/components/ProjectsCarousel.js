@@ -5,7 +5,7 @@ import {Row, Container} from 'reactstrap';
 //Image Components
 import DrumKit from '../images/DrumKit.jpg';
 import SonicDash from '../images/SonicDash.jpg';
-
+import TaskList from '../images/TaskList.jpg';
 
 class ProjectCarousel extends React.Component {
     constructor(props) {
@@ -26,6 +26,14 @@ class ProjectCarousel extends React.Component {
                         subTitle: 'Only Works on Desktop',
                         imgSrc: DrumKit,
                         link: 'https://misterbehavior-drumkit.netlify.app/',
+                        selected: false
+                    },
+                    {
+                        id: 2,
+                        title: 'JavaScript Task List',
+                        subTitle: 'Add Tasks To A List and Persist to Local Storage',
+                        imgSrc: TaskList,
+                        link: ' https://tasklist-mb.netlify.app/',
                         selected: false
                     },
                 ]
