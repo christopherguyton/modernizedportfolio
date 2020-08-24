@@ -22,6 +22,7 @@ class App extends Component {
 constructor(props){
   super(props);
   this.state = {
+
     title: 'Christopher Guyton',
     headerLinks: [
       {
@@ -77,7 +78,7 @@ constructor(props){
    return(
     <Router>
     <Container className="p-0" fluid={true}>
-    <Navbar fixed="top" className="border-bottom " bg="light" expand="lg" id="mainbar">
+    <Navbar collapseOnSelect fixed="top" className="border-bottom " bg="light" expand="lg" id="mainbar">
     <Navbar.Brand><img src={avatar} alt={avatar} width="15%" className="pr-2"/>Christopher Guyton</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbar-toggle" className="border-0"/>
     <Navbar.Collapse id="navbar-toggle">

@@ -34,7 +34,7 @@ class ContactPage extends Component {
              disabled: true,
          });
 
-         Axios.post('https://misterbehaviorbackend.herokuapp.com/api/email', this.state)
+         Axios.post('https://misterbehavior-portfolio.netlify.app//api/email', this.state)
          .then(res => {
              if (res.data.success) {
                 this.setState({
