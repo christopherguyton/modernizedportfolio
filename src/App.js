@@ -14,6 +14,7 @@ import HomePage from './pages/HomePage';
 import MusicPage from './pages/MusicPage';
 import GamingPage from './pages/GamingPage';
 import ProjectsPage from './pages/ProjectsPage';
+import UIProjectsPage from './pages/UIProjectsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import avatar from './images/ChrisAvatar.PNG';
@@ -35,7 +36,10 @@ constructor(props){
         title: 'Gaming', path: '/gaming'
       },
       {
-        title: 'Projects', path: '/projects'
+        title: 'Coding Projects', path: '/projects'
+      },
+      {
+        title: 'UI/UX Projects', path: '/uiprojects'
       },
       {
         title: 'About', path: '/about'
@@ -60,9 +64,14 @@ constructor(props){
       description: "I have a small YouTube Channel dedicated to my main hobby, video gaming. I produce all content myself using a Adobe Premiere and Audition, and I have alot of fun doing it! Below, I have included some of my most popular uploads into the page. Feel free to check out the rest of the channel by clicking the Youtube icon in the footer, as well!"
     },
     projects: {
-      title: "Projects",
+      title: "Coding Projects",
       subTitle: "Recent Coding Projects",
-      description: "I'm always looking to get better at this coding thing, so I'll be updating this page as I create more projects!"
+      description: "Here are a few examples of JavaScript Projects I have created!"
+    },
+      uiprojects: {
+        title: 'UI/UX Projects',
+        subTitle: 'UI and UX Design Projects',
+        description: "As I got more interested in coding and web development, I eventually discovered UI/UX and I am certainly drawn to this aspect of the industry as a creative!"
     },
     about: {
       title: 'About Chris',
@@ -87,6 +96,7 @@ constructor(props){
     <Link className="nav-link" to="/music">Music</Link>
     <Link className="nav-link" to="/gaming">Gaming</Link>
     <Link className="nav-link" to="/projects">Projects</Link>
+    <Link className="nav-link" to="/uiprojects">UI/UX Projects</Link>
     <Link className="nav-link" to="/about">About</Link>
     <Link className="nav-link" to="/contact">Contact</Link>
     </Nav>
@@ -98,6 +108,7 @@ constructor(props){
    <Route path="/music" exact render={() => <MusicPage title={this.state.music.title} description={this.state.music.description} description2={this.state.music.description2}  />} />
    <Route path="/gaming" exact render={() => <GamingPage title={this.state.gaming.title} description={this.state.gaming.description}  />} />
    <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subTitle} description={this.state.projects.description}/>} />
+   <Route path="/uiprojects" exact render={() => <UIProjectsPage title={this.state.uiprojects.title} subTitle={this.state.uiprojects.subTitle} description={this.state.uiprojects.description}/>} />
    <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
    <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}  />} />
 <Footer/>
