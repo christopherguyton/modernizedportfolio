@@ -15,6 +15,8 @@ function AboutPage(props) {
 
         <p>As far as Web Development, I built this site with ReactJS, and I know my way around HTML5, CSS and JavaScript.</p>
 
+        <p>I am looking to get more involved in the UI / UX design side of things. Please note that this site was developed before I started learnign UI / UX design, so for a better example of my work please go to the UI / UX projects section!</p>
+
         <p>I have experience as both a Project Manger and a Scrum Master working with Software Development Teams, IT Teams, Insurance Teams and Brand Packaging Teams.</p>
         
        <p>Please visit my <a href="https://linkedin.com/in/locsgehts" target="_blank" rel="noopener noreferrer">LinkedIn</a> page and connect with me for a more in depth look at my work histoy and experience.</p>
