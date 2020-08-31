@@ -37,6 +37,8 @@ class ContactPage extends Component {
          Axios.post('https://misterbehavior-backend.netlify.app/api/email', this.state)
          .then(res => {
              if (res.data.success) {
+                res.setHeader("Access-Control-Allow-Origin", "*");
+                res.setHeader("Access-Control-Allow-Headers", "X-Requested-With");
                 this.setState({
                     disabled: false,
                     emailSent: true,
