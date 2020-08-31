@@ -40,7 +40,7 @@ class ProjectCarousel extends React.Component {
                     {
                         id: 3,
                         title: 'Video Games List',
-                        subtitle: 'Create a list of video games! ES5 Style!',
+                        subTitle: 'Create a list of video games! ES5 Style!',
                         imgSrc: VideoGames,
                         link: 'https://gameslists-behavior.netlify.app'
                     },
