@@ -6,7 +6,7 @@ import {Row, Container} from 'reactstrap';
 import DrumKit from '../images/DrumKit.jpg';
 import SonicDash from '../images/SonicDash.jpg';
 import TaskList from '../images/TaskList.jpg';
-import SamSho from '../images/SamSho.jpg';
+// import SamSho from '../images/SamSho.jpg';
 
 class ProjectCarousel extends React.Component {
     constructor(props) {
@@ -37,13 +37,13 @@ class ProjectCarousel extends React.Component {
                         link: ' https://tasklist-mb.netlify.app/',
                         selected: false
                     },
-                    {
-                        id: 3,
-                        title: 'Pick A Main - Samurai Shodown',
-                        subtitle: 'Decide on your main character in Samurai Shodown',
-                        imgSrc: SamSho,
-                        link: ''
-                    },
+                    // {
+                    //     id: 3,
+                    //     title: 'Pick A Main - Samurai Shodown',
+                    //     subtitle: 'Decide on your main character in Samurai Shodown',
+                    //     imgSrc: SamSho,
+                    //     link: ''
+                    // },
                 ]
         }
     }
