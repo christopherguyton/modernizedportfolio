@@ -6,6 +6,8 @@ function AboutPage(props) {
     return(
         <div>
         <Content>
+        <p>PlaceHolder</p>
+        <p>pLaceholder</p>
         <h1 className="pageh1"> Thanks For Stopping By!</h1><hr></hr>
         <p> My name is Chris. Nice to meet you! </p>
         

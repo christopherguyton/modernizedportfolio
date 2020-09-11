@@ -10,7 +10,7 @@ class UIProjectCarousel extends React.Component {
     super(props);
         this.state ={
                 items: [
-               
+                  
                 ]
         }
     }

@@ -71,7 +71,7 @@ constructor(props){
       uiprojects: {
         title: 'UI/UX Projects',
         subTitle: 'UI and UX Design Projects',
-        description: "As I got more interested in coding and web development, I eventually discovered UI/UX and I am certainly drawn to this aspect of the industry as a creative!"
+        description: "Actively working behind the scenes on my portfolio for UI/UX... content coming soon!"
     },
     about: {
       title: 'About Chris',
@@ -95,7 +95,7 @@ constructor(props){
     <Link className="nav-link" to="/">Home</Link>
     <Link className="nav-link" to="/music">Music</Link>
     <Link className="nav-link" to="/gaming">Gaming</Link>
-    <Link className="nav-link" to="/projects">Projects</Link>
+    <Link className="nav-link" to="/projects">Coding Projects</Link>
     <Link className="nav-link" to="/uiprojects">UI/UX Projects</Link>
     <Link className="nav-link" to="/about">About</Link>
     <Link className="nav-link" to="/contact">Contact</Link>
