@@ -5,7 +5,7 @@ import {Row, Container} from 'reactstrap';
 //Image Components
 import Lilspectrum from '../images/Lilspectrum.jpg';
 import GameOmen from '../images/GameOmen.jpg';
-import SonicDash from '../images/SonicDash.jpg';
+import StreetAlpha2 from '../images/SonicDash.jpg';
 
 
 class Carousel extends React.Component {
@@ -14,12 +14,11 @@ class Carousel extends React.Component {
         this.state ={
                 items: [
                     {
-                        id: 0,
-                        title: 'Sonic Ring Grabber',
-                        subTitle: 'Sonic Themed Mini-Game',
-                        imgSrc: SonicDash,
-                        link: 'http://sonicballgame.netlify.app',
-                        selected: false
+                        id: 4,
+                        title: 'Street Fighter Alpha 2 Select Screen',
+                        subTitle: 'Fun Street Fighter Themed Character Select Screen Web App',
+                        imgSrc: StreetAlpha2,
+                        link: 'https://streetfighter-character-select.netlify.app/',
                     },
                     {
                         id: 1,
