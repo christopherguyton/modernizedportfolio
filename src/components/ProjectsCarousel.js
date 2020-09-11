@@ -50,8 +50,8 @@ class ProjectCarousel extends React.Component {
                         title: 'Street Fighter Alpha 2 Select Screen',
                         subTitle: 'Fun Street Fighter Themed Character Select Screen Web App',
                         imgSrc: SFA2,
-                        link: 'https://streetfighter-character-select.netlify.app/'
-                    }
+                        link: 'https://streetfighter-character-select.netlify.app/',
+                    },
                 ]
         }
     }
