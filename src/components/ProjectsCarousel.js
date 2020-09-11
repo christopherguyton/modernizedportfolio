@@ -3,11 +3,12 @@ import Card from './Card';
 import {Row, Container} from 'reactstrap';
 
 //Image Components
+import StreetAlpha2 from '../images/SFA2.png';
 import DrumKit from '../images/DrumKit.jpg';
 import SonicDash from '../images/SonicDash.jpg';
 import TaskList from '../images/TaskList.jpg';
 import VideoGames from '../images/VideoGames.jpg';
-import SFA2 from '..images/SFA2.jpg'
+
 
 class ProjectCarousel extends React.Component {
     constructor(props) {
@@ -49,7 +50,7 @@ class ProjectCarousel extends React.Component {
                         id: 4,
                         title: 'Street Fighter Alpha 2 Select Screen',
                         subTitle: 'Fun Street Fighter Themed Character Select Screen Web App',
-                        imgSrc: SFA2,
+                        imgSrc: StreetAlpha2,
                         link: 'https://streetfighter-character-select.netlify.app/',
                     },
                 ]
