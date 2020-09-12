@@ -66,7 +66,7 @@ constructor(props){
     projects: {
       title: "Coding Projects",
       subTitle: "Recent Coding Projects",
-      description: "Here are a few examples of JavaScript Projects I have created!"
+      description: "Here are a few examples of JavaScript Projects I have created! Click the image to see a description and link to the project!"
     },
       uiprojects: {
         title: 'UI/UX Projects',
