@@ -5,7 +5,7 @@ import {Row, Container} from 'reactstrap';
 //Image Components
 import Lilspectrum from '../images/Lilspectrum.jpg';
 import GameOmen from '../images/GameOmen.jpg';
-import StreetAlpha2 from '../images/SonicDash.jpg';
+import StreetAlpha2 from '../images/SFA2.png';
 
 
 class Carousel extends React.Component {
