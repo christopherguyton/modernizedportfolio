@@ -14,7 +14,7 @@ class Carousel extends React.Component {
         this.state ={
                 items: [
                     {
-                        id: 4,
+                        id: 0,
                         title: 'Street Fighter Alpha 2 Select Screen',
                         subTitle: 'Fun Street Fighter Themed Character Select Screen Web App',
                         imgSrc: StreetAlpha2,
